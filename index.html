@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="titre_page">
+            <h1>Le Jeu du Memory</h1>
+            <div class="container_page">
+                <div id="mode_jeux" class="mode">Choisissez un mode de jeu :</div>
+                <div class="div_saut_ligne"></div>
+                <input type="submit" class="btn_choix" value="Contre la montre" />
+                <input type="submit" class="btn_choix" value="Joueur vs Joueur" />
+                <input type="submit" class="btn_choix" value="Contre l'ordinateur" />
+
+            </div>
+            <div class="div_saut_ligne"></div>
+
+            <div class="zone">
+                <div>
+                    <h2>Tour du joueur n°<span id="turn"></span></h2>
+                    <h2>Points du joueur 1 : <span id="result_1"></span> </h2>
+                    <h2>Points du joueur 2 : <span id="result_2"></span> </h2>
+                    <h2>Temps : <span id="timer"></span></h2>
+                    <div>
+                        <input type="button" class="btn_relancer" value="Relancer une partie" onClick="window.location.reload()" />
+                    </div>
+                </div>
+
+            </div>
+            <div class="grille">
+            </div>
+        </div>
+    </div>
+
+</body></html>
